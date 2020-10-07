@@ -9,7 +9,7 @@ section#cartoon {
   width: 90%;
 }
 
-.six-col-grid {
+#cartoon .six-col-grid {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
@@ -34,4 +34,11 @@ section#cartoon {
 }
 .item6 {
   grid-area: item6;
+}
+
+/* mobile */
+@media (max-width: 765px) {
+  section#cartoon {
+    padding: 4rem 1rem;
+  }
 }

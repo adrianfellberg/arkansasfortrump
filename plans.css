@@ -20,3 +20,10 @@ section#plans {
 .item3 {
   grid-area: item3;
 }
+
+/* mobile */
+@media (max-width: 765px) {
+  section#plans {
+    padding: 4rem 1rem;
+  }
+}

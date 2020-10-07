@@ -38,3 +38,11 @@ button.fund:hover {
   color: #fff;
   border: 2px solid #fff;
 }
+
+/* mobile */
+@media (max-width: 768px) {
+  section#funds {
+    padding: 3rem 1rem;
+    margin: 1rem 0;
+  }
+}

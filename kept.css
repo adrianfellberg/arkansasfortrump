@@ -11,7 +11,6 @@ section#kept {
   grid-template-areas:
     "item1 item2"
     "item3 item4";
-  /* align-items: center; */
   padding: 4rem 0;
 }
 
@@ -48,4 +47,30 @@ section#kept {
 
 #kept .item4 {
   grid-area: item4;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  section#kept {
+    padding: 1rem;
+  }
+
+  /* #kept .item1 h3,
+  #kept .item3 h3 {
+    padding-bottom: 2rem;
+  }
+
+  #kept .item1 ion-icon,
+  #kept .item3 ion-icon {
+    padding-top: 2rem;
+  } */
+
+  #kept .item2 {
+    margin-bottom: 0rem;
+  }
+
+  #kept .item2 ul li,
+  #kept .item4 ul li {
+    padding-bottom: 0rem;
+  }
 }
