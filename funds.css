@@ -1,15 +1,14 @@
 section#funds {
-  padding: 4rem 0;
+  padding: 6rem 4rem;
   background-color: #da1333;
   height: 100%;
 }
 
 #funds .two-col-grid {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   grid-template-areas: "item1 item2";
   align-items: center;
-  text-align: center;
 }
 
 #funds .item1 {

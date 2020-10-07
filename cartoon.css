@@ -1,1 +1,37 @@
 /* cartoon */
+section#cartoon {
+  height: 100%;
+  width: 100%;
+  padding: 8rem 4rem;
+}
+
+#cartoon img {
+  width: 90%;
+}
+
+.six-col-grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "item1 item2 item3"
+    "item4 item5 item6";
+}
+
+.item1 {
+  grid-area: item1;
+}
+.item2 {
+  grid-area: item2;
+}
+.item3 {
+  grid-area: item3;
+}
+.item4 {
+  grid-area: item4;
+}
+.item5 {
+  grid-area: item5;
+}
+.item6 {
+  grid-area: item6;
+}
