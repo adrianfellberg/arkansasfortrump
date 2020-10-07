@@ -53,42 +53,4 @@ nav .logo-svg {
   nav#navbar {
     display: none;
   }
-  /* nav#navbar {
-    height: 60px;
-    background: #da1333;
-    display: block;
-    align-items: center;
-    transition: top 400ms;
-    padding: 0 1rem;
-    text-align: center;
-  }
-
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-
-  nav ul li {
-    padding-right: 2rem;
-  }
-
-  nav ul li:last-child {
-    padding-right: 0;
-  }
-
-  nav ul li a {
-    color: #fff;
-  }
-
-  nav ul li a:hover {
-    border-bottom: 2px solid #fff;
-  }
-
-  nav .logo a {
-    text-align: center;
-  }
-
-  nav .logo-svg {
-    display: none;
-  } */
 }
