@@ -10,6 +10,7 @@ section#funds {
   grid-template-rows: 1fr;
   grid-template-areas: "item1 item2";
   align-items: center;
+  text-align: center;
 }
 
 #funds .item1 {

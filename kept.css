@@ -12,6 +12,7 @@ section#kept {
     "item1 item2"
     "item3 item4";
   padding: 4rem 0;
+  text-align: center;
 }
 
 #kept .item1 {

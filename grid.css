@@ -1,5 +1,9 @@
 /* mobile */
 @media (max-width: 768px) {
+  .grid {
+    grid-gap: 1rem;
+  }
+
   .three-col-grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
