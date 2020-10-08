@@ -7,11 +7,8 @@ section#kept {
 
 .two-col-grid {
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas:
-    "item1 item2"
-    "item3 item4";
-  padding: 4rem 0;
+  grid-template-rows: 1fr;
+  grid-template-areas: "item1 item2";
 }
 
 .item1 {
@@ -23,12 +20,12 @@ section#kept {
 }
 
 #kept .item1 h3,
-#kept .item3 h3 {
+#kept .item2 h3 {
   padding: 0;
 }
 
 #kept .item1 ion-icon,
-#kept .item3 ion-icon {
+#kept .item2 ion-icon {
   font-size: 4rem;
   padding: 0.5rem 0;
 }
@@ -37,43 +34,10 @@ section#kept {
   margin-bottom: 4rem;
 }
 
-#kept .item2 ul li,
-#kept .item4 ul li {
+#kept .item1 ul li,
+#kept .item2 ul li {
   font-size: 1.6rem;
-  padding-bottom: 2rem;
   line-height: 1.8;
-}
-
-#kept .item3 {
-  grid-area: item3;
-}
-
-#kept .item4 {
-  grid-area: item4;
-}
-
-/* mobile */
-@media (max-width: 768px) {
-  section#kept {
-    padding: 1rem;
-  }
-
-  /* #kept .item1 h3,
-  #kept .item3 h3 {
-    padding-bottom: 2rem;
-  }
-
-  #kept .item1 ion-icon,
-  #kept .item3 ion-icon {
-    padding-top: 2rem;
-  } */
-
-  #kept .item2 {
-    margin-bottom: 0rem;
-  }
-
-  #kept .item2 ul li,
-  #kept .item4 ul li {
-    padding-bottom: 0rem;
-  }
+  padding: 1rem 0;
+  margin: 0 4rem;
 }

@@ -36,10 +36,3 @@ section#cartoon {
 .item6 {
   grid-area: item6;
 }
-
-/* mobile */
-@media (max-width: 765px) {
-  section#cartoon {
-    padding: 4rem 1rem;
-  }
-}

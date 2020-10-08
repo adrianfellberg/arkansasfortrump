@@ -25,7 +25,11 @@ h1 {
 
 h2 {
   font-size: 5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 8rem;
+}
+
+#funds h2 {
+  padding-bottom: 0rem;
 }
 
 h3 {
@@ -63,10 +67,10 @@ ion-icon {
 
 @media (max-width: 765px) {
   * {
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
   }
   h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     color: #da1333;
   }
 

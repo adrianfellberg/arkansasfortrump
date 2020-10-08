@@ -3,10 +3,3 @@ section#tweets {
   padding: 8rem 4rem;
   background-color: #facdd472;
 }
-
-/* mobile */
-@media (max-width: 768px) {
-  section#tweets {
-    padding: 4rem 1rem;
-  }
-}
