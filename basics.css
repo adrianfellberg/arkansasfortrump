@@ -63,7 +63,7 @@ ion-icon {
 
 @media (max-width: 765px) {
   * {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   h1 {
     font-size: 5rem;
