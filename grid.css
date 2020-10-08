@@ -10,7 +10,7 @@
     grid-template-areas: "item1" "item2" "item3";
   }
 
-  #funds .two-col-grid {
+  .two-col-grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "item1" "item2";
@@ -18,10 +18,8 @@
 
   #kept .two-col-grid {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr 1fr 2fr;
-    grid-template-areas:
-      "item1" "item2"
-      "item3" "item4";s
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "item1" "item2";
   }
 
   #cartoon .six-col-grid {
