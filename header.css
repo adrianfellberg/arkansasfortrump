@@ -1,16 +1,25 @@
 /* header */
 
-header video,
-header .overlay {
+header video {
   z-index: 99;
-  min-width: 100%;
-  min-height: 100vh;
+  /* min-width: 100%;
+  min-height: 100vh; */
+  max-height: 100vh;
+}
+
+header .overlay {
   position: absolute;
+  top: 0;
+  background-color: red;
+  height: 100vh;
+  width: 100%;
 }
 
 header video {
+  top: 0;
   bottom: 0;
   left: 0;
+  right: 0;
 }
 
 header .overlay {
@@ -27,12 +36,6 @@ header .overlay .content {
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  video {
-    display: none;
-  }
-
-  header .overlay {
-    background: none;
-  }
+#myBtn {
+  cursor: pointer;
 }
