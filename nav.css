@@ -40,6 +40,7 @@ nav .logo a {
   font-weight: bold;
   letter-spacing: 1px;
   color: #fff;
+  padding-top: 2rem;
 }
 
 nav .logo-svg {
@@ -51,6 +52,23 @@ nav .logo-svg {
 /* mobile */
 @media (max-width: 768px) {
   nav#navbar {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  nav ul {
+    padding-bottom: 1rem;
+  }
+
+  nav ul li {
+    padding-right: 2rem;
+  }
+
+  nav .logo a {
+    padding-top: 1rem;
+  }
+
+  nav .logo-svg {
     display: none;
   }
 }

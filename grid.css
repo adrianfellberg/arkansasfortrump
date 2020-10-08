@@ -2,6 +2,7 @@
 @media (max-width: 768px) {
   .grid {
     grid-gap: 1rem;
+    text-align: center;
   }
 
   .three-col-grid {

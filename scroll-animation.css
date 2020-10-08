@@ -28,7 +28,7 @@
   animation: move-wheel 1s linear infinite;
 }
 
-.arrow span {
+/* .arrow span {
   width: 1.5rem;
   height: 1.5rem;
   display: block;
@@ -37,7 +37,7 @@
   border-bottom-color: #fff;
   transform: rotate(45deg);
   animation: move-arrow 0.5s alternate infinite;
-}
+} */
 
 @keyframes show-up {
   0% {
@@ -61,7 +61,7 @@
   }
 }
 
-@keyframes move-arrow {
+/* @keyframes move-arrow {
   0% {
     opacity: 0;
   }
@@ -80,41 +80,25 @@
 
   100% {
     opacity: 1;
-  }
-}
+  } 
+} */
 
+/* mobile */
 @media (max-width: 768px) {
   .scroll-down {
-    bottom: 1rem;
+    position: absolute;
+    bottom: 5rem;
   }
 
   .mouse {
-    width: 2.5rem;
-    height: 5rem;
+    width: 2rem;
+    height: 4rem;
     border: 2px solid rgb(0, 0, 0);
-    border-radius: 2rem;
-    margin-bottom: 0.5rem;
-    display: flex;
   }
 
   .mouse span {
-    width: 1.25rem;
-    height: 1.25rem;
+    width: 1rem;
+    height: 1rem;
     background-color: rgb(0, 0, 0);
-    display: block; /* span = inline element (no margin)*/
-    border-radius: 50%;
-    margin: auto;
-    animation: move-wheel 1s linear infinite;
-  }
-
-  .arrow span {
-    width: 1.5rem;
-    height: 1.5rem;
-    display: block;
-    border: 3px solid transparent;
-    border-right-color: rgb(0, 0, 0);
-    border-bottom-color: rgb(0, 0, 0);
-    transform: rotate(45deg);
-    animation: move-arrow 0.5s alternate infinite;
   }
 }

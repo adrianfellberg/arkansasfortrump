@@ -5,18 +5,21 @@ section#kept {
   padding: 8rem 4rem;
 }
 
-#kept .two-col-grid {
+.two-col-grid {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
     "item1 item2"
     "item3 item4";
   padding: 4rem 0;
-  text-align: center;
 }
 
-#kept .item1 {
+.item1 {
   grid-area: item1;
+}
+
+.item2 {
+  grid-area: item2;
 }
 
 #kept .item1 h3,
@@ -31,7 +34,6 @@ section#kept {
 }
 
 #kept .item2 {
-  grid-area: item2;
   margin-bottom: 4rem;
 }
 
