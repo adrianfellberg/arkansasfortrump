@@ -52,8 +52,9 @@ nav .logo-svg {
 /* mobile */
 @media (max-width: 768px) {
   nav#navbar {
-    flex-direction: column;
-    padding: 0 1rem;
+    /* flex-direction: column;
+    padding: 0 1rem; */
+    display: none;
   }
 
   nav ul {
