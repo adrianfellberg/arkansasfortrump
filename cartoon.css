@@ -36,3 +36,9 @@ section#cartoon {
 .item6 {
   grid-area: item6;
 }
+
+@media (max-width: 768px) {
+  section#cartoon {
+    padding: 4rem 1rem;
+  }
+}

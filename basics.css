@@ -25,11 +25,11 @@ h1 {
 
 h2 {
   font-size: 5rem;
-  padding-bottom: 8rem;
+  padding-bottom: 4rem;
 }
 
 #funds h2 {
-  padding-bottom: 0rem;
+  padding-bottom: 0;
 }
 
 h3 {
@@ -75,7 +75,7 @@ ion-icon {
   }
 
   h2 {
-    font-size: 3.75rem;
+    font-size: 3.5rem;
   }
 
   h3 {

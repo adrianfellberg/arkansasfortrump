@@ -39,3 +39,14 @@ button.fund:hover {
   color: #fff;
   border: 2px solid #fff;
 }
+
+@media (max-width: 768px) {
+  section#funds {
+    padding: 0rem 1rem;
+  }
+
+  #funds .item2 {
+    text-align: center;
+    padding-bottom: 4rem;
+  }
+}

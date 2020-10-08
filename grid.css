@@ -10,7 +10,7 @@
     grid-template-areas: "item1" "item2" "item3";
   }
 
-  .two-col-grid {
+  #funds .two-col-grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "item1" "item2";

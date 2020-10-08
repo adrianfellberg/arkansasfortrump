@@ -41,3 +41,15 @@ section#kept {
   padding: 1rem 0;
   margin: 0 4rem;
 }
+
+@media (max-width: 765px) {
+  section#kept {
+    padding: 4rem 1rem;
+  }
+
+  #kept .item1 ul li,
+  #kept .item2 ul li {
+    padding: 0;
+    margin: 0;
+  }
+}
