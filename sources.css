@@ -1,0 +1,13 @@
+main ul {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+main ul li {
+  padding: 1rem 0;
+}
+
+main ul li a {
+  color: blue;
+}

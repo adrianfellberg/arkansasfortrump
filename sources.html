@@ -4,15 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="basics.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="scroll-animation.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="tweets.css">
+    <link rel="stylesheet" href="kept.css">
+    <link rel="stylesheet" href="plans.css">
+    <link rel="stylesheet" href="funds.css">
+    <link rel="stylesheet" href="facts.css">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="cartoon.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="sources.css">
 </head>
 <body>
-    <ul>
-        <li><a href="https://www.youtube.com/watch?v=fJYBonPOErU&list=LL&index=1&ab_channel=TheWhiteHouse">Video Clip</a></li>
-        <li><a href="https://www.youtube.com/watch?v=NlESdf5yMpY&ab_channel=TheWhiteHouse">Video Clip</a></li>
-        <li><a href="https://www.youtube.com/watch?v=f3sjZmkIZpk&list=LL&index=2">Video Clip</a></li>
-        <li><a href="https://www.youtube.com/watch?v=a5tOf6ZpqTE&ab_channel=TheWhiteHouse">Video Clip</a></li>
-        <li><a href="https://www.youtube.com/watch?v=z_LkIA_Oeus">Video Clip</a></li>
-        <li><a href="https://www.newstatesman.com/world/north-america/2018/05/replacing-trump-president-pence-exchanging-one-dangerous-leader-another">Trump & Pence</a></li>
-      </ul>
+
+    <nav id="navbar">
+        <div class="logo">
+          <a href="#home"
+            ><img
+              src="/assets/images/usararkansasflag_111872.svg"
+              alt=""
+              class="logo-svg"
+            />
+            ARKANSAS FOR TRUMP</a
+          >
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+   </nav>
+
+   <main>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=fJYBonPOErU&list=LL&index=1&ab_channel=TheWhiteHouse">https://www.youtube.com/watch?v=fJYBonPOErU&list=LL&index=1&ab_channel=TheWhiteHouse</a></li>
+            <li><a href="https://www.youtube.com/watch?v=NlESdf5yMpY&ab_channel=TheWhiteHouse">https://www.youtube.com/watch?v=NlESdf5yMpY&ab_channel=TheWhiteHouse</a></li>
+            <li><a href="https://www.youtube.com/watch?v=f3sjZmkIZpk&list=LL&index=2">https://www.youtube.com/watch?v=f3sjZmkIZpk&list=LL&index=2</a></li>
+            <li><a href="https://www.youtube.com/watch?v=a5tOf6ZpqTE&ab_channel=TheWhiteHouse">https://www.youtube.com/watch?v=a5tOf6ZpqTE&ab_channel=TheWhiteHouse</a></li>
+            <li><a href="https://www.youtube.com/watch?v=z_LkIA_Oeus">https://www.youtube.com/watch?v=z_LkIA_Oeus</a></li>
+            <li><a href="https://www.newstatesman.com/world/north-america/2018/05/replacing-trump-president-pence-exchanging-one-dangerous-leader-another">https://www.newstatesman.com/world/north-america/2018/05/replacing-trump-president-pence-exchanging-one-dangerous-leader-anothe</a></li>
+          </ul>
+       </section>
+   </main>
+
+   <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // Smooth Scrolling
+      $("nav a, button a").on("click", function (e) {
+        if (this.hash !== "") {
+          e.preventDefault();
+
+          const hash = this.hash;
+
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            400
+          );
+        }
+      });
+
+// Navbar Hides On Scroll
+      var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-70px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+    </script>
 </body>
 </html>
