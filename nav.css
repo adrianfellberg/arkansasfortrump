@@ -34,6 +34,10 @@ nav ul li a:hover {
   border-bottom: 2px solid #fff;
 }
 
+nav .logo {
+  width: 330px;
+}
+
 nav .logo a {
   display: flex;
   align-items: center;
@@ -46,11 +50,4 @@ nav .logo-svg {
   width: 90px;
   height: 70px;
   margin-right: 0.5rem;
-}
-
-/* mobile */
-@media (max-width: 768px) {
-  nav#navbar {
-    display: none;
-  }
 }

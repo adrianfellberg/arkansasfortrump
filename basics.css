@@ -7,7 +7,7 @@
 }
 
 img,
-video,
+/* video, */
 iframe {
   width: 100%;
 }
@@ -59,6 +59,7 @@ a {
 /* flex */
 .flex {
   display: flex;
+  justify-content: space-between;
 }
 
 ion-icon {

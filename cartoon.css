@@ -3,18 +3,20 @@ section#cartoon {
   height: 100%;
   width: 100%;
   padding: 8rem 4rem;
+  background-color: #facdd472;
+  color: #fff;
 }
 
 #cartoon img {
-  width: 90%;
+  width: 100%;
 }
 
 #cartoon .six-col-grid {
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
-    "item1 item2 item3"
-    "item4 item5 item6";
+    "item1 item2" "item3 item4"
+    " item5 item6";
   text-align: center;
 }
 

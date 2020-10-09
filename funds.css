@@ -1,6 +1,6 @@
 section#funds {
   padding: 6rem 4rem;
-  background-color: #da1333;
+  background-color: #ed1333;
   height: 100%;
   margin: 2rem 0;
 }
@@ -35,18 +35,7 @@ button.fund {
 
 button.fund:hover {
   transition: 400ms ease;
-  background-color: #da1333;
+  background-color: #ed1333;
   color: #fff;
   border: 2px solid #fff;
-}
-
-@media (max-width: 768px) {
-  section#funds {
-    padding: 0rem 1rem;
-  }
-
-  #funds .item2 {
-    text-align: center;
-    padding-bottom: 4rem;
-  }
 }
