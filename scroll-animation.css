@@ -1,5 +1,6 @@
 /* scroll indicator*/
 .scroll-down {
+  z-index: 2;
   position: absolute;
   bottom: 5rem;
   left: 50%;
