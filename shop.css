@@ -9,7 +9,7 @@ section#shop {
 .item img {
   width: 100%;
   height: 300px;
-  border: 4px solid #000000;
+  /* border: 4px solid #000000; */
 }
 
 .item .item-description .flex .shop {

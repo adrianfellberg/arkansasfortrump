@@ -68,4 +68,10 @@ footer h3 {
 
 audio {
   width: 100%;
+  user-select: none;
+  border: hidden;
+}
+
+audio::-webkit-media-controls-panel {
+  background: #fff;
 }
