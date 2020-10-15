@@ -19,7 +19,3 @@ section#about {
 #about .item2 {
   grid-area: item2;
 }
-
-video {
-  width: 100%;
-}

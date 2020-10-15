@@ -12,8 +12,10 @@ footer .three-col-grid {
 }
 
 footer img,
-iframe {
+iframe,
+video {
   border-radius: 10px;
+  width: 100%;
 }
 
 form p {
