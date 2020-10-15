@@ -16,7 +16,7 @@ section#cartoon {
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
     "item1 item2" "item3 item4"
-    " item5 item6";
+    " item5 item6 " "item7 item8";
   text-align: center;
 }
 
@@ -37,4 +37,10 @@ section#cartoon {
 }
 .item6 {
   grid-area: item6;
+}
+.item7 {
+  grid-area: item7;
+}
+.item8 {
+  grid-area: item8;
 }
