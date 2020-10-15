@@ -1,0 +1,25 @@
+section#about {
+  padding: 6rem 4rem;
+  background-color: #facdd472;
+  height: 100%;
+  margin: 2rem 0;
+}
+
+#about .two-col-grid {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "item1 item2";
+  align-items: center;
+  gap: 8rem;
+}
+
+#about .item1 {
+  grid-area: item1;
+}
+#about .item2 {
+  grid-area: item2;
+}
+
+video {
+  width: 100%;
+}
