@@ -326,6 +326,7 @@ section#kept ul {
 #kept .item2 ion-icon {
   font-size: 4rem;
   padding: 0.5rem 0;
+  background-color: #da1333;
 }
 
 #kept .item2 {
