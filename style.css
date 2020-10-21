@@ -323,7 +323,8 @@ section#kept ul {
 }
 
 #kept .item1 ion-icon,
-#kept .item2 ion-icon {
+#kept .item2 ion-icon,
+.item3 ion-icon {
   font-size: 4rem;
   padding: 0.5rem 0;
   color: #da1333;
@@ -334,14 +335,21 @@ section#kept ul {
 }
 
 #kept .item1 ul li,
-#kept .item2 ul li {
+#kept .item2 ul li,
+.item3 ul li {
   font-size: 1.6rem;
   line-height: 1.8;
   padding: 1rem 0;
   margin: 0 4rem;
 }
 
-/* Kept */
+#kept .item1 p,
+#kept .item2 p,
+.item3 p {
+  line-height: 1.5;
+}
+
+/* Main */
 main {
   height: 100%;
   width: 100%;
@@ -368,6 +376,7 @@ nav#navbar {
 nav ul {
   list-style: none;
   display: flex;
+  align-items: center;
 }
 
 nav ul li {
@@ -380,6 +389,11 @@ nav ul li:last-child {
 
 nav ul li a {
   color: #fff;
+  display: flex;
+  align-items: center;
+}
+nav ul li a ion-icon {
+  padding-left: 0.5rem;
 }
 
 nav ul li a:hover {
@@ -416,6 +430,7 @@ section#plans {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-template-areas: "item1 item2 item3";
+  gap: 2rem;
 }
 
 .item1 {
@@ -577,4 +592,30 @@ section#about {
 }
 #about .item2 {
   grid-area: item2;
+}
+
+dl dt {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  padding: 3rem 0 1.5rem 0;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+dl dd:last-child {
+  padding-top: 6rem;
+}
+
+dl dd:last-child,
+dl dd b {
+  font-size: 1.8rem;
+}
+
+dl dd:last-child a {
+  text-decoration: underline wavy;
+}
+
+dl dd {
+  font-size: 1.6rem;
+  line-height: 1.6;
 }
