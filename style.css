@@ -275,7 +275,7 @@ video-container video {
   object-fit: cover;
 }
 
-.video-container:after {
+/* .video-container:after {
   content: "";
   z-index: 1;
   height: 100%;
@@ -284,7 +284,7 @@ video-container video {
   left: 0;
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
-}
+} */
 
 .showcase .content {
   position: relative;
